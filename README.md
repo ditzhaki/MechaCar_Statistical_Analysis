@@ -25,3 +25,29 @@ Lot Summary:
 <img width="492" alt="Screen Shot 2022-07-29 at 7 16 38 PM" src="https://user-images.githubusercontent.com/101564349/181859513-a07f3507-813d-4791-8080-fe046d7608d9.png">
 
 The current manufacturing data meets this design specification for all manufacturing lots in total, however, not for each individual lot. As seen in the total summary table, the overall variance is 62.29356 which falls under 100 psi. However, when reviewing the data of each individual lot we see that the variance of Lot 3 exceeds the design specification at 170.2861224 psi.
+
+### T-Tests on Suspension Coils
+
+Across all manufacturing lots:
+
+<img width="400" alt="Screen Shot 2022-07-29 at 7 31 27 PM" src="https://user-images.githubusercontent.com/101564349/181860409-eb7b7d34-81d1-4d8e-b617-a32031d69cfd.png">
+
+Our findings for the T-Test results for suspension coils across all manufacturing lots can be seen in the image above. From our results, we can conclude that the PSI across all manufacturing lots is not statistically different from the population mean of 1,500 psi. Our results also reflect that we cannot reject the null hypothesis due to a p-value of 0.06028. 
+
+Lot 1:
+
+<img width="508" alt="Screen Shot 2022-07-29 at 7 32 02 PM" src="https://user-images.githubusercontent.com/101564349/181860437-8354b85b-821b-4285-81ac-32c9da31b78f.png">
+
+Our findings for the T-Test results for suspension coils for Lot 1 can be seen in the image above. From our results, we can conclude that the PSI for Lot 1 is not statistically different from the population mean of 1,500 psi. Our results also reflect that we cannot reject the null hypothesis due to a p-value of 1. 
+
+Lot 2:
+
+<img width="511" alt="Screen Shot 2022-07-29 at 7 32 23 PM" src="https://user-images.githubusercontent.com/101564349/181860453-7c1f6d75-cbf2-4f69-9620-ea1f519942a3.png">
+
+Our findings for the T-Test results for suspension coils for Lot 2 can be seen in the image above. From our results, we can conclude that the PSI for Lot 2 is not statistically different from the population mean of 1,500 psi. Our results also reflect that we cannot reject the null hypothesis due to a p-value of 0.6072. 
+
+Lot 3:
+
+<img width="508" alt="Screen Shot 2022-07-29 at 7 32 42 PM" src="https://user-images.githubusercontent.com/101564349/181860468-b09d268f-9f27-40b9-b938-c06a10db5130.png">
+
+Lastly, our findings for the T-Test results for suspension coils for Lot 3 can be seen in the image above. From our results, we can conclude that the PSI for Lot 3 is slightly statistically different from the population mean of 1,500 psi. Our results also reflect that we can reject the null hypothesis due to a p-value of 0.04168 which is just under our assumed significance level. 
