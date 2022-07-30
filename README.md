@@ -51,3 +51,20 @@ Lot 3:
 <img width="508" alt="Screen Shot 2022-07-29 at 7 32 42 PM" src="https://user-images.githubusercontent.com/101564349/181860468-b09d268f-9f27-40b9-b938-c06a10db5130.png">
 
 Lastly, our findings for the T-Test results for suspension coils for Lot 3 can be seen in the image above. From our results, we can conclude that the PSI for Lot 3 is slightly statistically different from the population mean of 1,500 psi. Our results also reflect that we can reject the null hypothesis due to a p-value of 0.04168 which is just under our assumed significance level. 
+
+## Study Design: MechaCar vs. Competition
+
+With gas and car prices skyrocketing in today's economy, there are multiple factors that are important for individuals considering purchasing a car. Some of these factors include cost of the vehicle, reliability, MPG, and size. 
+
+**Metric to be Tested:**
+One metric that we can evaluate is the cargo volume (ft<sup>3</sup>) of MechaCar's vehicles in comparison to its competitors. 
+
+**Null / Alternate Hypothesis**
+Null Hypothesis (H0): MechaCar vehicles average cargo volume is similar to competitor's vehicles in the same vehicle class.
+Alternate Hypothese (Ha): MechaCar vehicles average cargo volume is statistically above or below that of competitor vehicles.
+
+**Statistical Test**
+The statistical test to be used for this would be two-sample t-tests. The two-sample t-test supports a dichotomous data type and would help answer the question: Is there a statistical difference between the distribution means from two samples?
+
+**Data for Statistical Test**
+To pefform this statistical test, we would need to obtain cargo volume data of all MechaCar vehicles, as well as from any competitor vehicles.
